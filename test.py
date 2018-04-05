@@ -1,6 +1,8 @@
 #! /usr/bin/python
 # -*- coding: utf-8 -*- 
 
+from __future__ import print_function, unicode_literals, division, absolute_import
+
 class Base(object):
     def __init__(self):
         print("aaa");
@@ -16,5 +18,4 @@ class Gong(Base):
 
 
 if __name__ == '__main__':
-    #print("aaa");
     a = Gong();
